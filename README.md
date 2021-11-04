@@ -10,11 +10,11 @@
 ## Build Docker
 
 ```bash
-    gcloud builds submit --tag gcr.io/data-baguette/data-baguette
+    gcloud builds submit --tag gcr.io/data-baguette/home
 ```
 
 ## Run Docker
 
 ```bash
-    gcloud run deploy --image gcr.io/data-baguette/data-baguette --platform managed --max-instances=1
+    gcloud run deploy --image gcr.io/data-baguette/home --platform managed --max-instances=1
 ```
