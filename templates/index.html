@@ -2,8 +2,92 @@
 <html>
     <head>
         <title>Data Baguette</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
+        <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.ico') }}" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat Subrayada|Righteous">
     </head>
     <body>
-        <p>Freelance MLops / data engineering and data science.</p>
+        <div class="panel">
+            <div class="menuBar">
+                <img src="https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg" alt="profile_picture">
+                <h3>Ingénieur informatique fullstack</h3>
+                <ul>
+                    <li>
+                        <a href="#panelTextDataDriven">
+                            <span class="icon"><i class="iconStrategieData"></i></span>
+                            <span class="item">Stratégies data</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#panelTextDevops">
+                            <span class="icon"><i class="iconDevOps"></i></span>
+                            <span class="item">DevOPS et MLops</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#panelTextDataEngineering">
+                            <span class="icon"><i class="iconDataEngineering"></i></span>
+                            <span class="item">Data engineering</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#panelOthers">
+                            <span class="icon"><i class="iconOther"></i></span>
+                            <span class="item">Projets et autres</span>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#other-human-price">
+                                    <span class="icon"><i class="iconOther"></i></span>
+                                    <span class="item">Human price</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="panel" id="panelHeader">
+                <h1 class="title">Data Baguette</h1>
+                <h2 class="title">Emeric DYNOMANT</h2>
+                <h3 class="title">Consultant fullstack - projets data.</h3>
+            </div>
+        </div>
+        <div class="panel" id="panelTextDataDriven">
+            <h2 class="h2LargeText">
+                <span class="textFirstLine">Data driven</span>
+                <span class="textSecondLine">pour</span>
+                <span class="textThirdLine">de vrai.</span>
+            </h2>
+        </div>
+        <div class="panel" id="panelDetailsDataDriven">
+            <p>Détails data driven</p>
+        </div>
+        <div class="panel" id="panelTextDevops">
+            <h2 class="h2LargeText">
+                <span class="textFirstLine">Un DevOps</span>
+                <span class="textSecondLine">Rien que</span>
+                <span class="textThirdLine">pour vous.</span>
+            </h2>
+        </div>
+        <div class="panel" id="panelDetailsDevops">
+            <p>Détails devops</p>
+        </div>
+        <div class="panel" id="panelTextDataEngineering">
+            <h2 class="h2LargeText">
+                <span class="textFirstLine">Du Data engineering</span>
+                <span class="textSecondLine">Mieux que</span>
+                <span class="textThirdLine">Dans vos rêves.</span>
+            </h2>
+        </div>
+        <div class="panel" id="panelDetailsDataEngineering">
+            <p>Détails data eng</p>
+        </div>
+        <div class="panel" id="panelOthers">
+            <h3>Front-end</h3>
+            <h3>Autres projets</h3>
+            <h4 id="other-human-price">human-price</h4>
+        </div>
     </body>
 </html>

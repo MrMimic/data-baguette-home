@@ -1,0 +1,170 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* GENERIC PANEL */
+
+.panel {
+    width: 100vw;
+    height: 100vh;
+    border: 3px;
+    box-sizing: border-box;
+    max-width: 100%;
+    display: flex; 
+}
+
+/* TEXT PANEL RELATED */
+
+h1 {
+    margin: 0px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+/* MENU */
+
+.menuBar {
+    background-color: #363636;
+    width: 20vw;
+    color: #bda8ab;
+    z-index: 10;
+}
+
+.menuBar img {
+    border-radius: 50%;
+    height: 20vw;
+    width: 20vw;
+}
+
+.menuBar a {
+    color: #bda8ab;
+}
+
+.menuBar h3 {
+    text-align: center;
+    font-family: Righteous;
+}
+
+/* HEADER PANEL */
+
+#panelHeader {
+    background-color: #ffffff;
+    display: block;
+}
+
+#panelHeader::before {
+    content: "";
+    background: url(../images/baguette.svg) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    background-size: 50%;
+    top: 0vh;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;  
+}
+
+#panelHeader title {
+    font-family: Righteous;
+    z-index:1;
+}
+
+#panelHeader h1 {
+    font-size: 20vh;
+    text-align: center;
+}
+
+#panelHeader h2 {
+    font-size: 7vh;
+    text-align: right;
+    margin-right: 8vw;
+}
+
+#panelHeader h3 {
+    font-size: 6vh;
+    text-align: right;
+    margin-right: 12vw;
+    margin-top: 35vh;
+}
+
+/* DATA DRIVEN PANELS */
+
+#panelTextDataDriven {
+    background-color: #bda8ab;
+    font-size: 16vh;
+    font-family: Montserrat Subrayada;
+}
+
+#panelTextDataDriven .textFirstLine {
+    margin-left: 14vw;
+}
+
+#panelTextDataDriven .textSecondLine {
+    margin-left: 50vw;
+}
+
+#panelTextDataDriven .textThirdLine {
+    margin-left: 10vw;
+}
+
+#panelDetailsDataDriven {
+    background-color: #bd9198;
+}
+
+/* DEVOPS PANEL */
+
+#panelTextDevops {
+    background-color: #90b18d;
+    font-size: 16vh;
+    font-family: Montserrat Subrayada;
+}
+
+#panelTextDevops .textFirstLine {
+    margin-left: 4vw;
+}
+
+#panelTextDevops .textSecondLine {
+    margin-left: 30vw;
+}
+
+#panelTextDevops .textThirdLine {
+    margin-left: 10vw;
+}
+
+#panelDetailsDevops {
+    background-color: #569950;
+}
+
+/* DATA ENGINEERING PANEL */
+
+#panelTextDataEngineering {
+    background-color: #8e8db1;
+    font-size: 12vh;
+    font-family: Montserrat Subrayada;
+}
+
+#panelTextDataEngineering .textFirstLine {
+    margin-left: 20vw;
+}
+
+#panelTextDataEngineering .textSecondLine {
+    margin-left: 40vw;
+}
+
+#panelTextDataEngineering .textThirdLine {
+    margin-left: 10vw;
+}
+#panelDetailsDataEngineering {
+    background-color: #6260b1;
+}
+
+/* PANEL OTHERS */
+
+#panelOthers {
+    background-color: #ffffff;
+    display: block;
+}
