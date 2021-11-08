@@ -3,27 +3,6 @@ body, html {
     padding: 0px;
 }
 
-/* GENERIC PANEL */
-
-.panel {
-    width: 100vw;
-    height: 100vh;
-    border: 3px;
-    box-sizing: border-box;
-    max-width: 100%;
-    display: flex; 
-}
-
-/* TEXT PANEL RELATED */
-
-h1 {
-    margin: 0px;
-}
-
-h2 {
-    margin: 0px;
-}
-
 /* MENU */
 
 .menuBar {
@@ -46,6 +25,31 @@ h2 {
 .menuBar h3 {
     text-align: center;
     font-family: Righteous;
+}
+
+/* GENERIC PANEL */
+
+.panel {
+    width: 100vw;
+    height: 100vh;
+    border: 3px;
+    box-sizing: border-box;
+    max-width: 100%;
+    display: flex; 
+}
+
+/* TEXT PANEL RELATED */
+
+h1 {
+    margin: 0px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+.textInPanel {
+    margin-top: 4%;
 }
 
 /* HEADER PANEL */
@@ -95,7 +99,7 @@ h2 {
 
 #panelTextDataDriven {
     background-color: #bda8ab;
-    font-size: 16vh;
+    font-size: 750%;
     font-family: Montserrat Subrayada;
 }
 
@@ -119,7 +123,7 @@ h2 {
 
 #panelTextDevops {
     background-color: #90b18d;
-    font-size: 16vh;
+    font-size: 750%;
     font-family: Montserrat Subrayada;
 }
 
@@ -139,26 +143,26 @@ h2 {
     background-color: #569950;
 }
 
-/* DATA ENGINEERING PANEL */
+/* SOFT SKILLS PANEL */
 
-#panelTextDataEngineering {
+#panelTextSoftSkills {
     background-color: #8e8db1;
-    font-size: 12vh;
+    font-size: 750%;
     font-family: Montserrat Subrayada;
 }
 
-#panelTextDataEngineering .textFirstLine {
-    margin-left: 20vw;
+#panelTextSoftSkills .textFirstLine {
+    margin-left: 2vw;
 }
 
-#panelTextDataEngineering .textSecondLine {
+#panelTextSoftSkills .textSecondLine {
     margin-left: 40vw;
 }
 
-#panelTextDataEngineering .textThirdLine {
+#panelTextSoftSkills .textThirdLine {
     margin-left: 10vw;
 }
-#panelDetailsDataEngineering {
+#panelDetailsSoftSkills {
     background-color: #6260b1;
 }
 
