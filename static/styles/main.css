@@ -98,7 +98,7 @@ h2 {
 /* DATA DRIVEN PANELS */
 
 #panelTextDataDriven {
-    background-color: #bda8ab;
+    background-color: #ddcfbe;
     font-size: 750%;
     font-family: Montserrat Subrayada;
 }
@@ -116,13 +116,48 @@ h2 {
 }
 
 #panelDetailsDataDriven {
-    background-color: #bd9198;
+    background-color: #ddcfbe;
+}
+
+.panelDetailsDataDrivenImage img {
+    width: 20vw;
+    margin-left: 10vw;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-bottom: 10vh;
+}
+
+.panelDetailsDataDrivenText {
+    margin-left: 5vw;
+    font-family: Righteous;
+    font-size: 150%;
+}
+
+.panelDetailsDataDrivenText div {
+    margin-bottom: 4vw;
+}
+
+.panelDetailsDataDrivenText li {
+    margin: 1.5vw;
+}
+
+.panelDetailsDataDrivenTextCompetences #logoSklearn {
+    width: 7%;
+}
+
+.panelDetailsDataDrivenTextCompetences #logoTensorflow {
+    width: 4.5%;
+}
+
+.panelDetailsDataDrivenTextCompetences #logoPytorch {
+    width: 8%;
 }
 
 /* DEVOPS PANEL */
 
 #panelTextDevops {
-    background-color: #90b18d;
+    background-color: #ffffff;
     font-size: 750%;
     font-family: Montserrat Subrayada;
 }
@@ -140,7 +175,31 @@ h2 {
 }
 
 #panelDetailsDevops {
-    background-color: #569950;
+    background-color: #ffffff;
+}
+
+.panelDetailsDevopsImage img {
+    width: 30vw;
+    margin-left: 10vw;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-bottom: 5vh;
+    margin-right: 5vh;
+}
+
+.panelDetailsDevopsText {
+    margin-left: 5vw;
+    font-family: Righteous;
+    font-size: 150%;
+}
+
+.panelDetailsDevopsText div {
+    margin-bottom: 4vw;
+}
+
+.panelDetailsDevopsText li {
+    margin: 1.5vw;
 }
 
 /* SOFT SKILLS PANEL */
@@ -163,7 +222,30 @@ h2 {
     margin-left: 10vw;
 }
 #panelDetailsSoftSkills {
-    background-color: #6260b1;
+    background-color: #8e8db1;
+}
+
+.panelDetailsSoftSkillsImage img {
+    width: 10vw;
+    margin-left: 10vw;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-bottom: 5vh;
+}
+
+.panelDetailsSoftSkillsText {
+    margin-left: 5vw;
+    font-family: Righteous;
+    font-size: 150%;
+}
+
+.panelDetailsSoftSkillsText div {
+    margin-bottom: 4vw;
+}
+
+.panelDetailsSoftSkillsText li {
+    margin: 1.5vw;
 }
 
 /* PANEL OTHERS */

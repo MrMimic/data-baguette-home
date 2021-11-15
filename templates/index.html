@@ -35,7 +35,7 @@
                     <li>
                         <a href="#panelOthers">
                             <span class="icon"><i class="iconOther"></i></span>
-                            <span class="item">Projets et autres</span>
+                            <span class="item">Autres projets</span>
                         </a>
                         <ul>
                             <li>
@@ -64,9 +64,35 @@
             </div>
         </div>
         <div class="panel" id="panelDetailsDataDriven">
-            <h3>Data engineering</h3>
-            <h3>Data science</h3>
+            <div class="panelDetailsDataDrivenImage">
+                <img src="{{ url_for('static', filename='images/data-driven.png') }}" alt="data-driven-details">
+            </div>
+            <div class="panelDetailsDataDrivenText">
+                <div class="panelDetailsDataDrivenTextExperience">
+                    <h3>7 ans d'expérience sur des projets data</h3>
+                    <ul>
+                        <li>Dans des startups, des grands groupes, de la recherche publique. Quelle que soit l'échelle, <b>on gère</b>.</li>
+                        <li>Sur des <b>problématiques diverses</b>: séries temporelles, NLP, classification extrême... Et quand on a jamais fait, on sait s'adapter.</li>
+                    </ul>
+                </div>
+                <div class="panelDetailsDataDrivenTextCompetences">
+                    <h3>Du modèle au déploiement, à tous les niveaux</h3>
+                    <ul>
+                        <li>De <b>l'intégration des données</b> dans un datalake à la <b>mise en production</b> de modèles, pas de soucis.</li>
+                        <li>Expertise en développement <img src="{{ url_for('static', filename='images/logo-sklearn.png') }}" alt="SK-learn" id="logoSklearn">, <img src="{{ url_for('static', filename='images/logo-tensorflow.png') }}" alt="Tensorflow" id="logoTensorflow"> et <img src="{{ url_for('static', filename='images/logo-pytorch.png') }}" alt="PyTorch" id="logoPytorch">.</li>
+                        <li>Développement <i>from scratch</i> de modèles SOTA issus de publications scientifiques.</li>
+                    </ul>
+                </div>
+                <div class="panelDetailsDataDrivenTextMoa">
+                    <h3>La data pour le MOA</h3>
+                    <ul>
+                        <li>Projets passés avec de nombreux corps de métiers ou industries: médical, high-tech, chaînes de production ...</li>
+                        <li><b>Restitution claire et simple</b>, avec des jolis <i>dashboards</i> ou powerpoints, comme vous voulez.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
+
         <div class="panel" id="panelTextDevops">
             <div class="textInPanel">
                 <h2 class="h2LargeText">
@@ -77,29 +103,84 @@
             </div>
         </div>
         <div class="panel" id="panelDetailsDevops">
-            <p>MLops</p>
-            <p>Contenairisation</p>
-            <p>APIs</p>
-            <p>Serverless</p>
+            <div class="panelDetailsDevopsText">
+                <div class="panelDetailsDevopsTextMLops">
+                    <h3>Une mise en production propre, scalable  et sécurisée</h3>
+                    <ul>
+                        <li>Fini les projets qui restent à l'état de POC dans un notebook. Tout est <b>mis proprement en production</b> avec des technos récentes.</li>
+                        <li>Marre des consultants qui veulent vous refondre votre infra ? On peut <b>brancher des modèles sans modifier l'existant</b> via des APIs.</li>
+                    </ul>
+                </div>
+                <div class="panelDetailsDevopsTextCicd">
+                    <h3>Une CICD sans concession</h3>
+                    <ul>
+                        <li>Le code sale et pas documenté, personne n'aime ça. Chaque projet est <b>livré avec une chaîne de CICD</b> facilitant la reprise et l'évolution.</li>
+                        <li>Le code est testé (couverture de tests à 100% garantie) et déployé en continu. Vous voulez des modules spécifiques ajoutés à cette chaîne de déploiement ? C'est comme si c'était fait.</li>
+                    </ul>
+                </div>
+                <div class="panelDetailsDevopsTextInfra">
+                    <h3>Gestion d'infrastructure cloud ou physique</h3>
+                    <ul>
+                        <li>On laissera votre équipe infra tranquille. Après une petite dizaine d'années à administrer diverses machines, on est devenu assez indépendant.</li>
+                        <li>Vous voulez du <i>serverless</i> dans le cloud ? Pas de soucis, on gère aussi GCP (Google), AWS (Amazon) et Azure (Microsoft).</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="panelDetailsDevopsImage">
+                <img src="{{ url_for('static', filename='images/devops.png') }}" alt="devops-details">
+            </div>
         </div>
+
         <div class="panel" id="panelTextSoftSkills">
             <div class="textInPanel">
                 <h2 class="h2LargeText">
-                    <span class="textFirstLine">Informatique</span>
-                    <span class="textSecondLine">Mais</span>
-                    <span class="textThirdLine">Pas que.</span>
+                    <span class="textFirstLine">De la data</span>
+                    <span class="textSecondLine">Mais pas</span>
+                    <span class="textThirdLine">Uniquement.</span>
                 </h2>
             </div>
         </div>
         <div class="panel" id="panelDetailsSoftSkills">
-            <p>Projets</p>
-            <p>Brevets, publis, CIRs</p>
-            <p>Encadré stages, restitution claire et simple</p>
+            <div class="panelDetailsSoftSkillsImage">
+                <img src="{{ url_for('static', filename='images/soft-skills.png') }}" alt="soft-skills-details">
+            </div>
+            <div class="panelDetailsSoftSkillsText">
+                <div class="panelDetailsSoftSkillsProjects">
+                    <h3>Excellente compréhension des problématiques clients</h3>
+                    <ul>
+                        <li>Parce qu'on préfère facturer du temps de dev plutôt que du temps de blabla, chez data-baguette, on comprend vite et bien.</li>
+                        <li>Saupoudrez les compétences techniques avec de très bonnes capacités de communication et hop, tout va beaucoup mieux.</li>
+                    </ul>
+                </div>
+                <div class="panelDetailsSoftSkillsPublis">
+                    <h3>Des publications, des brevets, des dossiers de financement</h3>
+                    <ul>
+                        <li>Oui. On gère aussi l'écriture de la paperasse associée à nos développements. Que ça soit pour de la <i>peer review</i> scientifique ou un dossier BPI, on peut aider pour ce qui touche à nos compétences (<i>in English</i> aussi, <i>of course</i>).</li>
+                        <li>Avec plusieurs brevets déposés en Europe ou à l'internationnal (PCT). On peut aussi causer PI avec des avocats sans soucis.</li>
+                    </ul>
+                </div>
+                <div class="panelDetailsSoftSkillsRestitution">
+                    <h3>Au quotidien, des petits plus qui font tout</h3>
+                    <ul>
+                        <li>Avec plusieurs stages, thèses ou profils juniors encadrés, fini les explications interminables qui apportent plus de questions que de réponses.</li>
+                        <li>Ah, l'humour et la bonne humeur aussi, bien entendu. C'est important l'humour, quand même.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="panel" id="panelOthers">
-            <h3>Front-end</h3>
+            <h2>Autres projets</h2>
+            <h3>Développements front-end</h3>
+            <p>On va pa se mentir. On est capable de gérer les développements <i>front-end</i> de sites ou d'interfaces, mais on est d'accord. C'est ennuyeux. Notre priorité ira aux demandes de projets <i>back-end</i>.</p>
+            <h3>Electronique embarquée et IoT</h3>
+            <p>Sans être des électroniciens ou des développeurs embarqué de compétition, on peut donner un coup de main sur des prototypages d'objets connectés à grands coups de Raspberry Pi, de développement sur puce simples ou d'Arduino.</p>
             <h3>Autres projets</h3>
             <h4 id="other-human-price">human-price</h4>
+            <p>Vous avez toujours rêvé de savoir combien coûtait un corps humain en bourse ? On l'a fait.</p>
+            <p><a href="https://human-price.data-baguette.com/", target="_blank">human-price.data-baguette.com</a></p>
+            <h4 id="other-blog">Data baguette blog</h4>
+            <p>Un blog, comme tant d'autres, qui parle de data.</p>
+            <p><a href="https://blog.data-baguette.com/", target="_blank">blog.data-baguette.com/</a></p>
         </div>
     </body>
 </html>
