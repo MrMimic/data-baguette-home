@@ -27,6 +27,12 @@ body, html {
     font-family: Righteous;
 }
 
+.menuBar .contact-button {
+    color: red;
+    margin-left: 2vw;
+    margin-top: 35vh;
+}
+
 /* GENERIC PANEL */
 
 .panel {
@@ -315,8 +321,6 @@ h2 {
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 28%, rgba(54,54,54,1) 100%);
     display: block;
 }
-
-
 
 /* FOOTER */
 
