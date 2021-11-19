@@ -238,7 +238,7 @@ h2 {
 }
 
 .panelDetailsDevopsImage img {
-    width: 30vw;
+    width: 25vw;
     margin-left: 10vw;
     position: -webkit-sticky;
     position: sticky;
@@ -281,7 +281,8 @@ h2 {
     margin-left: 10vw;
 }
 #panelDetailsSoftSkills {
-    background-color: #8e8db1;
+    background: rgb(142,141,177);
+    background: linear-gradient(180deg, rgba(142,141,177,1) 0%, rgba(255,255,255,1) 97%);
 }
 
 .panelDetailsSoftSkillsImage img {
@@ -310,6 +311,24 @@ h2 {
 /* PANEL OTHERS */
 
 #panelOthers {
-    background-color: #ffffff;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 28%, rgba(54,54,54,1) 100%);
     display: block;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    background : #363636;
+}
+
+footer div {
+    margin-left: 20vw;
+    margin-bottom: 5vw;
+    margin-top : 5vw;
+    color: #ffffff;
+    font-size: 1.5vw
 }
