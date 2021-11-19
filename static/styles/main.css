@@ -99,7 +99,7 @@ h2 {
 
 #panelTextDataDriven {
     background-color: #ddcfbe;
-    font-size: 750%;
+    font-size: 7.5vw;
     font-family: Montserrat Subrayada;
 }
 
@@ -112,16 +112,17 @@ h2 {
 }
 
 #panelTextDataDriven .textThirdLine {
-    margin-left: 10vw;
+    margin-left: 20vw;
 }
 
 #panelDetailsDataDriven {
-    background-color: #ddcfbe;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,100) 0%, rgba(221,207,190,1) 97%, rgba(221,207,190,1) 100%);
 }
 
 .panelDetailsDataDrivenImage img {
-    width: 20vw;
-    margin-left: 10vw;
+    width: 15vw;
+    margin-left: 5vw;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -131,27 +132,84 @@ h2 {
 .panelDetailsDataDrivenText {
     margin-left: 5vw;
     font-family: Righteous;
-    font-size: 150%;
+    font-size: 1.5vw;
+    display: flex;
 }
 
 .panelDetailsDataDrivenText div {
     margin-bottom: 4vw;
+    width: 24vw;
+}
+
+.panelDetailsDataDrivenText h3 {
+    text-align: center;
+    font-size: 3vw;
 }
 
 .panelDetailsDataDrivenText li {
     margin: 1.5vw;
+    list-style: none;
 }
 
-.panelDetailsDataDrivenTextCompetences #logoSklearn {
-    width: 7%;
+.panelDetailsDataDrivenTextExperience {
+    margin-top: 30vh;
 }
 
-.panelDetailsDataDrivenTextCompetences #logoTensorflow {
-    width: 4.5%;
+.panelDetailsDataDrivenTextExperience img {
+    width: 1.5vw;
 }
 
-.panelDetailsDataDrivenTextCompetences #logoPytorch {
-    width: 8%;
+.panelDetailsDataDrivenTextExperience h4 {
+    font-size: 2.2vw;
+    text-align: center;
+}
+
+.panelDetailsDataDrivenTextCompetences {
+    margin-top: 15vh;
+    border-top: 5px solid #363636;
+    border-left: 1px solid #363636;
+    border-right: 5px solid #363636;
+}
+
+.panelDetailsDataDrivenTextCompetences h4 {
+    margin-left: 0.5vw;
+    font-size: 1.5vw;
+}
+
+.panelDetailsDataDrivenTextCompetences li {
+    margin: 0.1vh;
+}
+
+.panelDetailsDataDrivenTextCompetences .level-1 {
+    font-size: 1.2vw;
+}
+
+.panelDetailsDataDrivenTextCompetences .level-2 {
+    font-size: 1vw;
+}
+
+.panelDetailsDataDrivenTextCompetences .level-3 {
+    font-size: 0.8vw;
+}
+
+.panelDetailsDataDrivenTextCompetences img {
+    margin: auto;
+    width: 4.5vw;
+}
+
+.panelDetailsDataDrivenTextMoa {
+    margin-top: 45vh;
+}
+
+.panelDetailsDataDrivenTextMoa h4 {
+    margin-left: 5vh;
+    text-align: center;
+}
+
+.panelDetailsDataDrivenTextMoa img {
+    width: 20vw;
+    margin-left: 3vw;
+    margin-right: auto;
 }
 
 /* DEVOPS PANEL */
@@ -175,7 +233,8 @@ h2 {
 }
 
 #panelDetailsDevops {
-    background-color: #ffffff;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(142,141,177,1) 97%, rgba(142,141,177,1) 100%);
 }
 
 .panelDetailsDevopsImage img {

@@ -54,6 +54,7 @@
                 <h3 class="title">Consultant fullstack - projets data.</h3>
             </div>
         </div>
+        <!-- DATA DRIVEN -->
         <div class="panel" id="panelTextDataDriven">
             <div class="textInPanel">
                 <h2 class="h2LargeText">
@@ -68,31 +69,48 @@
                 <img src="{{ url_for('static', filename='images/data-driven.png') }}" alt="data-driven-details">
             </div>
             <div class="panelDetailsDataDrivenText">
-                <div class="panelDetailsDataDrivenTextExperience">
-                    <h3>7 ans d'expérience sur des projets data</h3>
-                    <ul>
-                        <li>Dans des startups, des grands groupes, de la recherche publique. Quelle que soit l'échelle, <b>on gère</b>.</li>
-                        <li>Sur des <b>problématiques diverses</b>: séries temporelles, NLP, classification extrême... Et quand on a jamais fait, on sait s'adapter.</li>
-                    </ul>
-                </div>
                 <div class="panelDetailsDataDrivenTextCompetences">
-                    <h3>Du modèle au déploiement, à tous les niveaux</h3>
+                    <h3>FULLSTACK</h3>
+                    <h4>Data engineering</h4>
                     <ul>
-                        <li>De <b>l'intégration des données</b> dans un datalake à la <b>mise en production</b> de modèles, pas de soucis.</li>
-                        <li>Expertise en développement <img src="{{ url_for('static', filename='images/logo-sklearn.png') }}" alt="SK-learn" id="logoSklearn">, <img src="{{ url_for('static', filename='images/logo-tensorflow.png') }}" alt="Tensorflow" id="logoTensorflow"> et <img src="{{ url_for('static', filename='images/logo-pytorch.png') }}" alt="PyTorch" id="logoPytorch">.</li>
-                        <li>Développement <i>from scratch</i> de modèles SOTA issus de publications scientifiques.</li>
+                        <li class="level-1">Création de dalatake</li>
+                        <li class="level-2">Intégration des données</li>
+                        <li class="level-3">Analyse en temps réel ...</li>
+                    </ul>
+                    <h4>Data science</h4>
+                    <ul>
+                        <li class="level-1">Conception de solution</li>
+                        <li class="level-2">Développement de modèles</li>
+                        <li class="level-3">Reporting ...</li>
+                    </ul>
+                    <h4>MLops</h4>
+                    <ul>
+                        <li class="level-1">Mise en production</li>
+                        <li class="level-2">Intégration continue</li>
+                        <li class="level-3">Concepts <i>clean code</i> ...</li>
                     </ul>
                 </div>
-                <div class="panelDetailsDataDrivenTextMoa">
-                    <h3>La data pour le MOA</h3>
+                <div class="panelDetailsDataDrivenTextExperience">
+                    <h3>EXPÉRIENCE</h3>
                     <ul>
-                        <li>Projets passés avec de nombreux corps de métiers ou industries: médical, high-tech, chaînes de production ...</li>
-                        <li><b>Restitution claire et simple</b>, avec des jolis <i>dashboards</i> ou powerpoints, comme vous voulez.</li>
+                        <li>Startups &nbsp; <img src="{{ url_for('static', filename='images/check.png') }}" alt="check" id="logoCheck">
+                        </li>
+                        <li>Grands groupes &nbsp; <img src="{{ url_for('static', filename='images/check.png') }}" alt="check"
+                                id="logoCheck"></li>
+                        <li>Recherche publique &nbsp; <img src="{{ url_for('static', filename='images/check.png') }}" alt="check"
+                                id="logoCheck"></li>
                     </ul>
+                    <h4>ON GÈRE</h4>
+                </div>
+
+                <div class="panelDetailsDataDrivenTextMoa">
+                    <h3>MOA</h3>
+                    <h4>Quel que soit votre domaine</h4>
+                    <img src="{{ url_for('static', filename='images/logo-industries.png') }}" alt="Industries" id="logoIndustries">
                 </div>
             </div>
         </div>
-
+        <!-- DEVOPS -->
         <div class="panel" id="panelTextDevops">
             <div class="textInPanel">
                 <h2 class="h2LargeText">
@@ -108,7 +126,7 @@
                     <h3>Une mise en production propre, scalable  et sécurisée</h3>
                     <ul>
                         <li>Fini les projets qui restent à l'état de POC dans un notebook. Tout est <b>mis proprement en production</b> avec des technos récentes.</li>
-                        <li>Marre des consultants qui veulent vous refondre votre infra ? On peut <b>brancher des modèles sans modifier l'existant</b> via des APIs.</li>
+                        <li>Marre des consultants qui veulent refondre votre infra ? On peut <b>brancher des modèles sans modifier l'existant</b> via des APIs.</li>
                     </ul>
                 </div>
                 <div class="panelDetailsDevopsTextCicd">
@@ -122,7 +140,7 @@
                     <h3>Gestion d'infrastructure cloud ou physique</h3>
                     <ul>
                         <li>On laissera votre équipe infra tranquille. Après une petite dizaine d'années à administrer diverses machines, on est devenu assez indépendant.</li>
-                        <li>Vous voulez du <i>serverless</i> dans le cloud ? Pas de soucis, on gère aussi GCP (Google), AWS (Amazon) et Azure (Microsoft).</li>
+                        <li>Vous voulez du <i>serverless</i> ultra scalable dans le cloud ? Pas de soucis, on gère aussi GCP (Google), AWS (Amazon) et Azure (Microsoft).</li>
                     </ul>
                 </div>
             </div>
@@ -130,7 +148,7 @@
                 <img src="{{ url_for('static', filename='images/devops.png') }}" alt="devops-details">
             </div>
         </div>
-
+        <!-- SOFT SKILLS -->
         <div class="panel" id="panelTextSoftSkills">
             <div class="textInPanel">
                 <h2 class="h2LargeText">
@@ -156,7 +174,7 @@
                     <h3>Des publications, des brevets, des dossiers de financement</h3>
                     <ul>
                         <li>Oui. On gère aussi l'écriture de la paperasse associée à nos développements. Que ça soit pour de la <i>peer review</i> scientifique ou un dossier BPI, on peut aider pour ce qui touche à nos compétences (<i>in English</i> aussi, <i>of course</i>).</li>
-                        <li>Avec plusieurs brevets déposés en Europe ou à l'internationnal (PCT). On peut aussi causer PI avec des avocats sans soucis.</li>
+                        <li>Avec plusieurs brevets déposés en Europe ou à l'internationnal (PCT) à notre actif, on peut aussi discuter PI avec des avocats sans soucis.</li>
                     </ul>
                 </div>
                 <div class="panelDetailsSoftSkillsRestitution">
@@ -168,18 +186,19 @@
                 </div>
             </div>
         </div>
+        <!-- OTHER -->
         <div class="panel" id="panelOthers">
             <h2>Autres projets</h2>
             <h3>Développements front-end</h3>
-            <p>On va pa se mentir. On est capable de gérer les développements <i>front-end</i> de sites ou d'interfaces, mais on est d'accord. C'est ennuyeux. Notre priorité ira aux demandes de projets <i>back-end</i>.</p>
+            <p>On est capable de gérer les développements <i>front-end</i> de sites ou d'interfaces, mais honnêtement, c'est ennuyeux. Notre priorité ira aux demandes de projets <i>back-end</i>.</p>
             <h3>Electronique embarquée et IoT</h3>
             <p>Sans être des électroniciens ou des développeurs embarqué de compétition, on peut donner un coup de main sur des prototypages d'objets connectés à grands coups de Raspberry Pi, de développement sur puce simples ou d'Arduino.</p>
             <h3>Autres projets</h3>
             <h4 id="other-human-price">human-price</h4>
-            <p>Vous avez toujours rêvé de savoir combien coûtait un corps humain en bourse ? On l'a fait.</p>
+            <p>Vous avez toujours rêvé de savoir combien coûtait un corps humain en bourse ? On l'a calculé.</p>
             <p><a href="https://human-price.data-baguette.com/", target="_blank">human-price.data-baguette.com</a></p>
             <h4 id="other-blog">Data baguette blog</h4>
-            <p>Un blog, comme tant d'autres, qui parle de data.</p>
+            <p>Un blog, comme tant d'autres, qui parle de data, comme tant d'autres.</p>
             <p><a href="https://blog.data-baguette.com/", target="_blank">blog.data-baguette.com/</a></p>
         </div>
     </body>
