@@ -12,6 +12,10 @@ body, html {
     z-index: 10;
 }
 
+.menuBarTop {
+    height: 50vh;
+}
+
 .menuBar img {
     border-radius: 50%;
     height: 20vw;
@@ -27,10 +31,15 @@ body, html {
     font-family: Righteous;
 }
 
+.menuBarBottom {
+    height : 50 vh;
+}
+
 .menuBar .contact-button {
     color: red;
     margin-left: 2vw;
-    margin-top: 35vh;
+    position: absolute;
+    bottom: 5vh;
 }
 
 /* GENERIC PANEL */
@@ -105,7 +114,7 @@ h2 {
 
 #panelTextDataDriven {
     background-color: #ddcfbe;
-    font-size: 7.5vw;
+    font-size: 850%;
     font-family: Montserrat Subrayada;
 }
 
@@ -222,7 +231,7 @@ h2 {
 
 #panelTextDevops {
     background-color: #ffffff;
-    font-size: 750%;
+    font-size: 850%;
     font-family: Montserrat Subrayada;
 }
 
@@ -271,7 +280,7 @@ h2 {
 
 #panelTextSoftSkills {
     background-color: #8e8db1;
-    font-size: 750%;
+    font-size: 850%;
     font-family: Montserrat Subrayada;
 }
 
@@ -320,7 +329,26 @@ h2 {
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 28%, rgba(54,54,54,1) 100%);
     display: block;
+    font-family: Righteous;
+    font-size: 1vw;
 }
+
+#panelOthers h2 {
+    margin-left: 2vw;
+}
+
+#panelOthers h3 {
+    margin-left: 3vw;
+}
+
+#panelOthers p {
+    margin-left: 5vw;
+}
+
+#panelOthers a {
+    margin-left: 7vw;
+}
+
 
 /* FOOTER */
 
