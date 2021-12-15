@@ -60,6 +60,17 @@ h2 {
 }
 
 .WannaKnowContacts {
+    margin-top: 6vh;
+    font-size: 6vh;
+}
+
+
+.panelWannaKnowText a {
+    text-decoration: none;
+}
+
+
+.WannaKnowContacts {
     display: block;
     text-align: center;
 }
@@ -93,6 +104,11 @@ h2 {
     font-size: 16pt;
     margin-bottom: 8vh;
 }
+
+.projectExplainations a {
+    margin-left: 5vw;
+}
+
 
 /* SEE YOU */
 
