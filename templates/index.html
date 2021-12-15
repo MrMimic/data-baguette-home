@@ -6,214 +6,64 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
         <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.ico') }}" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat Subrayada|Righteous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa Slab One|Righteous">
     </head>
     <body>
-        <div class="panel">
-            <div class="menuBar">
-                <div class="menuBarTop">
-                    <img src="https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg" alt="profile_picture">
-                    <h3>Ingénieur informatique fullstack</h3>
-                    <ul>
-                        <li>
-                            <a href="#panelTextDataDriven">
-                                <span class="icon"><i class="iconStrategieData"></i></span>
-                                <span class="item">Stratégies data</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#panelTextDevops">
-                                <span class="icon"><i class="iconDevOps"></i></span>
-                                <span class="item">DevOPS et MLops</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#panelTextSoftSkills">
-                                <span class="icon"><i class="iconDataEngineering"></i></span>
-                                <span class="item">Soft skills</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#panelOthers">
-                                <span class="icon"><i class="iconOther"></i></span>
-                                <span class="item">Autres projets</span>
-                            </a>
-                            <ul>
-                                <li>
-                                    <a href="#other-human-price">
-                                        <span class="icon"><i class="iconOther"></i></span>
-                                        <span class="item">Human price</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#other-blog">
-                                        <span class="icon"><i class="iconOther"></i></span>
-                                        <span class="item">Blog</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menuBarBottom">
-                    <div class="contact-button">
-                        BOUTON CONTACT
-                    </div>
-                </div>
-            </div>
-            <div class="panel" id="panelHeader">
-                <h1 class="title">Data Baguette</h1>
-                <h2 class="title">Emeric DYNOMANT</h2>
-                <h3 class="title">Consultant fullstack - projets data.</h3>
-            </div>
-        </div>
-        <!-- DATA DRIVEN -->
-        <div class="panel" id="panelTextDataDriven">
+        <div class="panel" id="panelWhatsup">
             <div class="textInPanel">
-                <h2 class="h2LargeText">
-                    <span class="textFirstLine">Data driven</span>
-                    <span class="textSecondLine">pour</span>
-                    <span class="textThirdLine">de vrai.</span>
+                <h2 class="textFirstLine">HEY.</h2>
+                <h2 class="textSecondLine">WHAT'S UP?</h2>
                 </h2>
             </div>
         </div>
-        <div class="panel" id="panelDetailsDataDriven">
-            <div class="panelDetailsDataDrivenImage">
+
+        <div class="panel" id="panelWannaKnow">
+            <div class="panelWannaKnowImage">
                 <img src="{{ url_for('static', filename='images/data-driven.png') }}" alt="data-driven-details">
             </div>
-            <div class="panelDetailsDataDrivenText">
-                <div class="panelDetailsDataDrivenTextCompetences">
-                    <h3>FULLSTACK</h3>
-                    <h4>Data engineering</h4>
-                    <ul>
-                        <li class="level-1">Création de dalatake</li>
-                        <li class="level-2">Intégration des données</li>
-                        <li class="level-3">Analyse en temps réel ...</li>
-                    </ul>
-                    <h4>Data science</h4>
-                    <ul>
-                        <li class="level-1">Conception de solution</li>
-                        <li class="level-2">Développement de modèles</li>
-                        <li class="level-3">Reporting ...</li>
-                    </ul>
-                    <h4>MLops</h4>
-                    <ul>
-                        <li class="level-1">Mise en production</li>
-                        <li class="level-2">Intégration continue</li>
-                        <li class="level-3">Concepts <i>clean code</i> ...</li>
-                    </ul>
+            <div class="panelWannaKnowText">
+                Wanna know what I'm doing ?
+                <div class="WannaKnowContacts">
+                    <a href="https://github.com/MrMimic">
+                        <img src="{{ url_for('static', filename='images/github.png') }}" alt="github">
+                    </a>
+                    <a href="https://www.linkedin.com/in/emeric-dynomant/">
+                        <img src="{{ url_for('static', filename='images/linkedin.png') }}" alt="linkedin">
+                    </a>
                 </div>
-                <div class="panelDetailsDataDrivenTextExperience">
-                    <h3>EXPÉRIENCE</h3>
-                    <ul>
-                        <li>Startups &nbsp; <img src="{{ url_for('static', filename='images/check.png') }}" alt="check" id="logoCheck">
-                        </li>
-                        <li>Grands groupes &nbsp; <img src="{{ url_for('static', filename='images/check.png') }}" alt="check"
-                                id="logoCheck"></li>
-                        <li>Recherche publique &nbsp; <img src="{{ url_for('static', filename='images/check.png') }}" alt="check"
-                                id="logoCheck"></li>
-                    </ul>
-                    <h4>ON GÈRE</h4>
-                </div>
+            </div>
+        </div>
 
-                <div class="panelDetailsDataDrivenTextMoa">
-                    <h3>MOA</h3>
-                    <h4>Quel que soit votre domaine</h4>
-                    <img src="{{ url_for('static', filename='images/logo-industries.png') }}" alt="Industries" id="logoIndustries">
-                </div>
-            </div>
-        </div>
-        <!-- DEVOPS -->
-        <div class="panel" id="panelTextDevops">
+        <div class="panel" id="panelSureYouDo">
             <div class="textInPanel">
-                <h2 class="h2LargeText">
-                    <span class="textFirstLine">Un DevOps</span>
-                    <span class="textSecondLine">Rien que</span>
-                    <span class="textThirdLine">pour vous.</span>
-                </h2>
+                <h2 class="textFirstLine">SURE</h2>
+                <h2 class="textSecondLine">YOU DO.</h2>
             </div>
         </div>
-        <div class="panel" id="panelDetailsDevops">
-            <div class="panelDetailsDevopsText">
-                <div class="panelDetailsDevopsTextMLops">
-                    <h3>Une mise en production propre, scalable  et sécurisée</h3>
-                    <ul>
-                        <li>Fini les POC dans les notebook ! Tout est <b>mis proprement en production</b> avec des technos récentes.</li>
-                        <li>Marre des consultants qui veulent refondre votre infra ? On peut <b>brancher des modèles sans modifier l'existant</b> via nos APIs.</li>
-                    </ul>
-                </div>
-                <div class="panelDetailsDevopsTextCicd">
-                    <h3>Une CICD sans concession</h3>
-                    <ul>
-                        <li><del>Code sale et pas documenté</del>: personne n'aime ça.</li>
-                        <li>Chaque projet est <b>livré avec une chaîne de CICD</b> facilitant la reprise et l'évolution.</li>
-                        <li>Le code est testé (<b>couverture de tests à 100% garantie</b>) et déployé en continu.</li>
-                    </ul>
-                </div>
-                <div class="panelDetailsDevopsTextInfra">
-                    <h3>Gestion d'infrastructure cloud ou physique</h3>
-                    <ul>
-                        <li>On <b>laissera votre équipe infra tranquille</b>. On est assez indépendant.</li>
-                        <li>Vous voulez du <b><i>serverless</i> ultra scalable dans le cloud</b> de votre choix ? Pas de soucis.</li>
-                    </ul>
-                </div>
+
+        <div class="panel" id="panelProjects">
+            <div class="projectExplainations">
+                <h3 id="other-human-price">human-price</h3>
+                <p>You've always wanted to know how much a human body worth? Did it.</p>
+                <p><a href="https://human-price.data-baguette.com/" , target="_blank">human-price.data-baguette.com</a></p>
             </div>
-            <div class="panelDetailsDevopsImage">
-                <img src="{{ url_for('static', filename='images/devops.png') }}" alt="devops-details">
+            <div class="projectExplainations">
+                <h3 id="other-blog">Data baguette blog</h3>
+                <p>A blog, like many, talking about data, like many.</p>
+                <p><a href="https://blog.data-baguette.com/" , target="_blank">blog.data-baguette.com</a></p>
+            </div>
+            <div class="projectExplainations">
+                <h3 id="other-blog">Questions answering</h3>
+                <p>A program that uses Wikipedia and transformers to answer everything.</p>
+                <p><a href="https://question-answering.data-baguette.com//" , target="_blank">question-answering.data-baguette.com</a></p>
             </div>
         </div>
-        <!-- SOFT SKILLS -->
-        <div class="panel" id="panelTextSoftSkills">
+
+        <div class="panel" id="panelSeeYou">
             <div class="textInPanel">
-                <h2 class="h2LargeText">
-                    <span class="textFirstLine">De la data</span>
-                    <span class="textSecondLine">Mais pas</span>
-                    <span class="textThirdLine">Uniquement.</span>
-                </h2>
+                <h2 class="textFirstLine">SEE YOU</h2>
+                <h2 class="textSecondLine">SOON.</h2>
             </div>
-        </div>
-        <div class="panel" id="panelDetailsSoftSkills">
-            <div class="panelDetailsSoftSkillsImage">
-                <img src="{{ url_for('static', filename='images/soft-skills.png') }}" alt="soft-skills-details">
-            </div>
-            <div class="panelDetailsSoftSkillsText">
-                <!-- GRID DISPLAY WITH SMAL BLKINKING CARDS -->
-                <div class="panelDetailsSoftSkillsProjects">
-                    <h3>Excellente compréhension des problématiques clients</h3>
-                    <ul>
-                        <li>Parce qu'on préfère facturer du temps de dev plutôt que du temps de blabla, chez data-baguette, on comprend vite et bien.</li>
-                        <li>Saupoudrez les compétences techniques avec de très bonnes capacités de communication et hop, tout va beaucoup mieux.</li>
-                    </ul>
-                </div>
-                <div class="panelDetailsSoftSkillsPublis">
-                    <h3>Des publications, des brevets, des dossiers de financement</h3>
-                    <ul>
-                        <li>Oui. On gère aussi l'écriture de la paperasse associée à nos développements. Que ça soit pour de la <i>peer review</i> scientifique ou un dossier BPI, on peut aider pour ce qui touche à nos compétences (<i>in English</i> aussi, <i>of course</i>).</li>
-                        <li>Avec plusieurs brevets déposés en Europe ou à l'internationnal (PCT) à notre actif, on peut aussi discuter PI avec des avocats sans soucis.</li>
-                    </ul>
-                </div>
-                <div class="panelDetailsSoftSkillsRestitution">
-                    <h3>Au quotidien, des petits plus qui font tout</h3>
-                    <ul>
-                        <li>Avec plusieurs stages, thèses ou profils juniors encadrés, fini les explications interminables qui apportent plus de questions que de réponses.</li>
-                        <li>Ah, l'humour et la bonne humeur aussi, bien entendu. C'est important l'humour, quand même.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- OTHER -->
-        <div class="panel" id="panelOthers">
-            <h2>Autres projets</h2>
-            <h3>Développements front-end</h3>
-            <p>On est capable de gérer les développements <i>front-end</i> de sites ou d'interfaces, mais honnêtement, c'est ennuyeux. Notre priorité ira aux demandes de projets <i>back-end</i>.</p>
-            <h3>Electronique embarquée et IoT</h3>
-            <p>Sans être des électroniciens ou des développeurs embarqué de compétition, on peut donner un coup de main sur des prototypages d'objets connectés à grands coups de Raspberry Pi, de développement sur puce simples ou d'Arduino.</p>
-            <h3 id="other-human-price">human-price</h3>
-            <p>Vous avez toujours rêvé de savoir combien coûtait un corps humain en bourse ? On l'a calculé.</p>
-            <p><a href="https://human-price.data-baguette.com/", target="_blank">human-price.data-baguette.com</a></p>
-            <h3 id="other-blog">Data baguette blog</h3>
-            <p>Un blog, comme tant d'autres, qui parle de data, comme tant d'autres.</p>
-            <p><a href="https://blog.data-baguette.com/", target="_blank">blog.data-baguette.com</a></p>
         </div>
     </body>
     <footer>
