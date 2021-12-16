@@ -11,6 +11,10 @@ body, html {
     border: 3px;
     box-sizing: border-box;
     max-width: 100%;
+    border-left: 1vw solid rgb(173, 173, 173);
+    border-right: 1vw solid rgb(173, 173, 173);
+    border-left-style: ridge;
+    border-right-style: ridge;
 }
 
 /* TEXT PANEL RELATED */
@@ -28,11 +32,26 @@ h2 {
 /* WHATSUP */
 
 #panelWhatsup {
+    border-top: 1vw solid rgb(173, 173, 173);
+    border-top-style: ridge;
     background-color: #ddcfbe;
     width: 100vw;
-    font-size: 8vw;
+    font-size: 6vw;
     font-family: Alfa Slab One;
     vertical-align: baseline;
+    height: 90vh;
+
+}
+
+#panelWhatsup .textInPanel .pseudos {
+    font-size: 2vw;
+    text-align: right;
+    width: 100vw;
+    margin-top: 6vw;
+}
+
+#panelWhatsup .textInPanel .pseudos span {
+    margin-right: 5vw;
 }
 
 /* WANNA KNOW */
@@ -44,7 +63,7 @@ h2 {
 }
 
 .panelWannaKnowImage img {
-    width: 15vw;
+    width: 10vw;
     margin-left: 5vw;
     position: -webkit-sticky;
     position: sticky;
@@ -54,8 +73,9 @@ h2 {
 
 .panelWannaKnowText {
     margin-left: 5vw;
+    margin-top: 5vw;
     font-family: Righteous;
-    font-size: 6vw;
+    font-size: 5vw;
     display: block;
 }
 
@@ -76,8 +96,9 @@ h2 {
 }
 
 .WannaKnowContacts img {
-    width: 10vw;
+    width: 5vw;
     margin-top: 5vh;
+    margin-right: 6vh;
 }
 
 /* SURE YOU DO */
@@ -85,7 +106,7 @@ h2 {
 #panelSureYouDo {
     background-color: rgb(84, 178, 255, 100);
     width: 100vw;
-    font-size: 8vw;
+    font-size: 6vw;
     font-family: Alfa Slab One;
     vertical-align: baseline;
 }
@@ -95,7 +116,7 @@ h2 {
 #panelProjects {
     background: linear-gradient(0deg, rgba(221, 207, 190, 1) 0%, rgba(84, 178, 255, 100) 97%, rgba(84, 178, 255, 100) 100%);
     display: inline-block;
-    height: 100vh;
+    height: 130vh;
 }
 
 #panelProjects .projectExplainations {
@@ -115,14 +136,22 @@ h2 {
 #panelSeeYou {
     background-color: #ddcfbe;
     width: 100vw;
-    font-size: 8vw;
+    font-size: 6vw;
     font-family: Alfa Slab One;
     vertical-align: baseline;
+    height: 60vh;
+
 }
 
 /* FOOTER */
 
 footer {
+    border-left: 1vw solid rgb(173, 173, 173);
+    border-right: 1vw solid rgb(173, 173, 173);
+    border-bottom: 1vw solid rgb(173, 173, 173);
+    border-right-style: ridge;
+    border-left-style: ridge;
+    border-bottom-style: ridge;
     display: flex;
     background : #ddcfbe;
     font-family: Righteous;
@@ -134,4 +163,53 @@ footer div {
     margin-top : 5vw;
     color: rgb(0, 0, 0);
     font-size: 1.5vw
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* ABOUT */
+
+.about {
+    background-color: #ddcfbe;
+    height: 100vh;
+    width: 100vw;
+    border: 1vw solid rgb(173, 173, 173);
+    border-style: ridge;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 6vw;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.about p {
+    font-size: 3vw;
+}
+
+/* COOKIES */
+
+.cookies {
+    background-color: #ddcfbe;
+    height: 100vh;
+    width: 100vw;
+    border: 1vw solid rgb(173, 173, 173);
+    border-style: ridge;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.cookies h2 {
+    font-size: 6vw;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.cookies p {
+    font-size: 3vw;
 }

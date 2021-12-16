@@ -13,7 +13,9 @@
             <div class="textInPanel">
                 <h2 class="textFirstLine">HEY.</h2>
                 <h2 class="textSecondLine">WHAT'S UP?</h2>
-                </h2>
+                <div class="pseudos">
+                    <span>Emeric DYNOMANT - @MrMimic</span>
+                </div>
             </div>
         </div>
 
@@ -25,11 +27,16 @@
                 Wanna know what I'm doing ?
                 <div class="WannaKnowContacts">
                     <a href="https://github.com/MrMimic", target="_blank">
-                        <img src="{{ url_for('static', filename='images/github.png') }}" alt="github">
+                        <img src="https://www.vectorlogo.zone/logos/github/github-tile.svg" alt="github">
                     </a>
-                    <span>@MrMimic</span>
                     <a href="https://www.linkedin.com/in/emeric-dynomant/", target="_blank">
-                        <img src="{{ url_for('static', filename='images/linkedin.png') }}" alt="linkedin">
+                        <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-tile.svg" alt="linkedin">
+                    </a>
+                    <a href="https://twitter.com/Mr_Mimic", target="_blank">
+                        <img src="https://www.vectorlogo.zone/logos/twitter/twitter-tile.svg" alt="github">
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley", target="_blank">
+                        <img src="https://raw.githubusercontent.com/AliasIO/wappalyzer/master/src/drivers/webextension/images/icons/TikTok.svg" alt="linkedin">
                     </a>
                 </div>
             </div>
@@ -68,8 +75,20 @@
         </div>
     </body>
     <footer>
-        <div class="About">About</div>
-        <div class="RGPD">RGPD</div>
-        <div class="Contact">Contact</div>
+        <div class="About">
+            <a href="{{ about_adress }}" target="_blank">
+                About
+            </a>
+        </div>
+        <div class="RGPD">
+            <a href="{{ cookies_adress }}" target="_blank">
+                Cookies
+            </a>
+        </div>
+        <div class="Contact" target="_blank">
+            <a href="mailto:{{ contact_email  }}?subject=Contact from data-baguette home">
+                Contact
+            </a>
+        </div>
     </footer>
 </html>
